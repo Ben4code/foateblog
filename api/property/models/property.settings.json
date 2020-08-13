@@ -46,7 +46,7 @@
       "type": "string",
       "required": true
     },
-    "amenity": {
+    "amenities": {
       "type": "richtext"
     }
   }
