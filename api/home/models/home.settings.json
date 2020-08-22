@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "name": "home"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.header"
+    },
+    "hexagons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.hexagons"
+    },
+    "guide_title": {
+      "type": "string"
+    },
+    "guide_content": {
+      "type": "text"
+    },
+    "guide_button_text": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.button"
+    },
+    "variety_title": {
+      "type": "string"
+    },
+    "variety_content": {
+      "type": "text"
+    }
+  }
+}

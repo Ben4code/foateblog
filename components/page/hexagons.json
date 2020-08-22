@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_page_hexagons",
+  "info": {
+    "name": "hexagons",
+    "icon": "grip-horizontal"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "string"
+    }
+  }
+}

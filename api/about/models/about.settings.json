@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "abouts",
+  "info": {
+    "name": "about"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "who_we_are": {
+      "type": "string"
+    },
+    "who_we_are_content": {
+      "type": "richtext"
+    },
+    "vision_title": {
+      "type": "string"
+    },
+    "vision_content": {
+      "type": "richtext"
+    },
+    "mission_title": {
+      "type": "string"
+    },
+    "mission_content": {
+      "type": "richtext"
+    }
+  }
+}

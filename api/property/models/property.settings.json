@@ -48,6 +48,14 @@
     },
     "amenities": {
       "type": "richtext"
+    },
+    "property_type": {
+      "type": "string",
+      "default": "rent"
+    },
+    "building_type": {
+      "type": "string",
+      "default": "flat"
     }
   }
 }
