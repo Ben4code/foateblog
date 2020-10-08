@@ -26,6 +26,9 @@
     },
     "mission_content": {
       "type": "richtext"
+    },
+    "page_title": {
+      "type": "string"
     }
   }
 }

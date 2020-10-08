@@ -1,0 +1,47 @@
+{
+  "kind": "singleType",
+  "collectionName": "designs",
+  "info": {
+    "name": "Design"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "page_title": {
+      "type": "string",
+      "default": "Design"
+    },
+    "content_title": {
+      "type": "string"
+    },
+    "content_img": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "content_sub_title_1": {
+      "type": "string"
+    },
+    "content_description_1": {
+      "type": "richtext"
+    },
+    "content_sub_title_2": {
+      "type": "string"
+    },
+    "content_description_2": {
+      "type": "richtext"
+    },
+    "content_sub_title_3": {
+      "type": "string"
+    },
+    "content_description_3": {
+      "type": "richtext"
+    }
+  }
+}
