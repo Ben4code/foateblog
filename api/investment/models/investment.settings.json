@@ -1,0 +1,48 @@
+{
+  "kind": "singleType",
+  "collectionName": "investments",
+  "info": {
+    "name": "Investment"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "page_title": {
+      "type": "string"
+    },
+    "sub_title_1": {
+      "type": "string"
+    },
+    "sub_title_2": {
+      "type": "string"
+    },
+    "sub_title_1_content": {
+      "type": "richtext"
+    },
+    "sub_title_2_content": {
+      "type": "richtext"
+    },
+    "sub_title_2_media": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "sub_title_3": {
+      "type": "string"
+    },
+    "sub_title_3_content": {
+      "type": "richtext"
+    },
+    "sub_title_3_button": {
+      "type": "string"
+    }
+  }
+}

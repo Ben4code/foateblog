@@ -5,6 +5,4 @@
  * to customize this controller
  */
 
- // Hello World
-
 module.exports = {};
