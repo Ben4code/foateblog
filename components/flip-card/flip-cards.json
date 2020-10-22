@@ -78,6 +78,18 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "card_back_content_1": {
+      "type": "richtext"
+    },
+    "card_back_content_2": {
+      "type": "richtext"
+    },
+    "card_back_content_3": {
+      "type": "richtext"
+    },
+    "card_back_content_4": {
+      "type": "richtext"
     }
   }
 }
