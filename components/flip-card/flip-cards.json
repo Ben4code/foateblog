@@ -1,0 +1,83 @@
+{
+  "collectionName": "components_flip_card_flip_cards",
+  "info": {
+    "name": "flip_cards",
+    "icon": "images"
+  },
+  "options": {},
+  "attributes": {
+    "card_front_title": {
+      "type": "string"
+    },
+    "card_front_content": {
+      "type": "richtext"
+    },
+    "card_front_img": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "card_back_text_1": {
+      "type": "string"
+    },
+    "card_back_img_1": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "card_back_text_2": {
+      "type": "string"
+    },
+    "card_back_img_2": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "card_back_text_3": {
+      "type": "string"
+    },
+    "card_back_img_3": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "card_back_text_4": {
+      "type": "string"
+    },
+    "card_back_img_4": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

@@ -38,11 +38,103 @@
     "sub_title_3": {
       "type": "string"
     },
-    "sub_title_3_content": {
+    "sub_title_3a_text": {
+      "type": "string"
+    },
+    "sub_title_3b_text": {
+      "type": "string"
+    },
+    "sub_title_3c_text": {
+      "type": "string"
+    },
+    "sub_title_3d_text": {
+      "type": "string"
+    },
+    "sub_title_3e_text": {
+      "type": "string"
+    },
+    "sub_title_3f_text": {
+      "type": "string"
+    },
+    "sub_title_3a_img": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "sub_title_3b_img": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "sub_title_3c_img": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "sub_title_3d_img": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "sub_title_3e_img": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "sub_title_3f_img": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "sub_title_4": {
+      "type": "string"
+    },
+    "sub_title_4_content": {
       "type": "richtext"
     },
-    "sub_title_3_button": {
+    "sub_title_4_button": {
       "type": "string"
+    },
+    "flip_card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "flip-card.flip-cards"
     }
   }
 }
