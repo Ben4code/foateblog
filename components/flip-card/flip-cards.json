@@ -26,70 +26,38 @@
     "card_back_text_1": {
       "type": "string"
     },
-    "card_back_img_1": {
-      "collection": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
-    },
     "card_back_text_2": {
       "type": "string"
-    },
-    "card_back_img_2": {
-      "collection": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
     },
     "card_back_text_3": {
       "type": "string"
     },
-    "card_back_img_3": {
-      "collection": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
-    },
     "card_back_text_4": {
       "type": "string"
     },
-    "card_back_img_4": {
-      "collection": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
+    "card_back_icon_1": {
+      "type": "string"
+    },
+    "card_back_icon_2": {
+      "type": "string"
+    },
+    "card_back_icon_3": {
+      "type": "string"
+    },
+    "card_back_icon_4": {
+      "type": "string"
     },
     "card_back_content_1": {
-      "type": "richtext"
+      "type": "string"
     },
     "card_back_content_2": {
-      "type": "richtext"
+      "type": "string"
     },
     "card_back_content_3": {
-      "type": "richtext"
+      "type": "string"
     },
     "card_back_content_4": {
-      "type": "richtext"
+      "type": "string"
     }
   }
 }
