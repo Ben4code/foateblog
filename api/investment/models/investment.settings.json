@@ -135,6 +135,18 @@
       "type": "component",
       "repeatable": true,
       "component": "flip-card.flip-cards"
+    },
+    "sub_title_3a_heading": {
+      "type": "string"
+    },
+    "sub_title_3b_heading": {
+      "type": "string"
+    },
+    "sub_title_3c_heading": {
+      "type": "string"
+    },
+    "sub_title_3d_heading": {
+      "type": "string"
     }
   }
 }
